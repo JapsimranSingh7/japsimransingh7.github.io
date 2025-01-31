@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RIBOS Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Welcome Screen -->
+  <div id="welcome">
+    <h1 class="floating-text">Welcome to Tic Tac Toe Game</h1>
+    <p class="subtext floating-text">This game will open in a few seconds</p>
+  </div>
+
+  <!-- Home Screen -->
+  <div id="home" style="display: none;">
+    <div class="header">Creator of the game = Japsimran</div>
+    <button id="play-tic-tac-toe" class="button">Tic Tac Toe</button>
+  </div>
+
+  <!-- Tic Tac Toe Menu -->
+  <div id="tic-tac-toe-menu" style="display: none;">
+    <h1>ARE YOU READY?</h1>
+    <button id="with-computer" class="button">Play With AI</button>
+    <button id="with-friend" class="button">Play With Friends</button>
+  </div>
+
+  <!-- Tic Tac Toe Game -->
+  <div id="tic-tac-toe-game" style="display: none;">
+    <div class="board"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
